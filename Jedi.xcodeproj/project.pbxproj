@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBFE63D11A63C943009591B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE63D01A63C943009591B6 /* main.m */; };
+		DBFE63D91A63C9C7009591B6 /* YOSJedi.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE63D81A63C9C7009591B6 /* YOSJedi.m */; };
+		DBFE63DC1A63CA56009591B6 /* YOSLightSaber.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE63DB1A63CA56009591B6 /* YOSLightSaber.m */; };
+		DBFE63DF1A63D44F009591B6 /* YOSStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE63DE1A63D44F009591B6 /* YOSStarWarsCharacter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBFE63CB1A63C943009591B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBFE63CD1A63C943009591B6 /* Jedi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jedi; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFE63D01A63C943009591B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBFE63D71A63C9C7009591B6 /* YOSJedi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSJedi.h; sourceTree = "<group>"; };
+		DBFE63D81A63C9C7009591B6 /* YOSJedi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSJedi.m; sourceTree = "<group>"; };
+		DBFE63DA1A63CA56009591B6 /* YOSLightSaber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSLightSaber.h; sourceTree = "<group>"; };
+		DBFE63DB1A63CA56009591B6 /* YOSLightSaber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSLightSaber.m; sourceTree = "<group>"; };
+		DBFE63DD1A63D44F009591B6 /* YOSStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSStarWarsCharacter.h; sourceTree = "<group>"; };
+		DBFE63DE1A63D44F009591B6 /* YOSStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSStarWarsCharacter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFE63CA1A63C943009591B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBFE63C41A63C943009591B6 = {
+			isa = PBXGroup;
+			children = (
+				DBFE63DD1A63D44F009591B6 /* YOSStarWarsCharacter.h */,
+				DBFE63DE1A63D44F009591B6 /* YOSStarWarsCharacter.m */,
+				DBFE63DA1A63CA56009591B6 /* YOSLightSaber.h */,
+				DBFE63DB1A63CA56009591B6 /* YOSLightSaber.m */,
+				DBFE63D71A63C9C7009591B6 /* YOSJedi.h */,
+				DBFE63D81A63C9C7009591B6 /* YOSJedi.m */,
+				DBFE63CF1A63C943009591B6 /* Jedi */,
+				DBFE63CE1A63C943009591B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFE63CE1A63C943009591B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE63CD1A63C943009591B6 /* Jedi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFE63CF1A63C943009591B6 /* Jedi */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE63D01A63C943009591B6 /* main.m */,
+			);
+			path = Jedi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFE63CC1A63C943009591B6 /* Jedi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFE63D41A63C943009591B6 /* Build configuration list for PBXNativeTarget "Jedi" */;
+			buildPhases = (
+				DBFE63C91A63C943009591B6 /* Sources */,
+				DBFE63CA1A63C943009591B6 /* Frameworks */,
+				DBFE63CB1A63C943009591B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jedi;
+			productName = Jedi;
+			productReference = DBFE63CD1A63C943009591B6 /* Jedi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFE63C51A63C943009591B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yos;
+				TargetAttributes = {
+					DBFE63CC1A63C943009591B6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DBFE63C81A63C943009591B6 /* Build configuration list for PBXProject "Jedi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBFE63C41A63C943009591B6;
+			productRefGroup = DBFE63CE1A63C943009591B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFE63CC1A63C943009591B6 /* Jedi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFE63C91A63C943009591B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFE63DF1A63D44F009591B6 /* YOSStarWarsCharacter.m in Sources */,
+				DBFE63DC1A63CA56009591B6 /* YOSLightSaber.m in Sources */,
+				DBFE63D11A63C943009591B6 /* main.m in Sources */,
+				DBFE63D91A63C9C7009591B6 /* YOSJedi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBFE63D21A63C943009591B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBFE63D31A63C943009591B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBFE63D51A63C943009591B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBFE63D61A63C943009591B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFE63C81A63C943009591B6 /* Build configuration list for PBXProject "Jedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFE63D21A63C943009591B6 /* Debug */,
+				DBFE63D31A63C943009591B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFE63D41A63C943009591B6 /* Build configuration list for PBXNativeTarget "Jedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFE63D51A63C943009591B6 /* Debug */,
+				DBFE63D61A63C943009591B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFE63C51A63C943009591B6 /* Project object */;
+}
