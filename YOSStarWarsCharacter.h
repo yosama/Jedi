@@ -10,10 +10,13 @@
 
 @interface YOSStarWarsCharacter : NSObject
 
-
 @property NSString *name;
 
+// Metodos factory
 +(instancetype) startWarsCharacterWithName:(NSString *) name;
 
+
+//Designado
 -(id) initWithName: (NSString *) name;
+
 @end

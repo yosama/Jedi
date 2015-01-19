@@ -27,7 +27,7 @@
 +(instancetype) purpleLightSaber;
 
 
-// Init
+// Init designated
 -(id) initWithRed:(float) red
             green:(float) green
              blue:(float) blue;

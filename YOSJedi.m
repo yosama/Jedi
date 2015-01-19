@@ -17,9 +17,9 @@
         padawanOf :(YOSJedi*) master{
     
     if ( self = [super initWithName:name]){
-        _midichlorians = 100;
-        _lightSaber = [YOSLightSaber blueLightSaber];
-        _padawanOf = nil;
+        _midichlorians = midichlorians;
+        _lightSaber = lightSaber;
+        _padawanOf = master;
     }
     
     return self;
@@ -34,7 +34,7 @@
 
 -(NSString *) description
 {
-    return [ NSString stringWithFormat:@"<%@: %@ (%lu) - %@>", [self class], [self name], (unsigned long)[self midichlorians], [self padawanOf]] ;
+    return [ NSString stringWithFormat:@"%@ (%lu) - %@>",[self name], (unsigned long)[self midichlorians], [self padawanOf]] ;
 }
 
 

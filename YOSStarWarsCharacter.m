@@ -26,12 +26,12 @@
     return self;
 }
 
+
+
 -(NSString *) description{
     
-    return [NSString stringWithFormat:@" <%@: <%@",[self class], [self name]];
+    return [NSString stringWithFormat:@"%@", [self name]];
 }
-
-
 
 
 -(BOOL)isEqual:(id)object{
